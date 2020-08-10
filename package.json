@@ -29,12 +29,12 @@
     "cypress:open": "node node_modules/cypress/bin/cypress open",
     "serve": "http-server ./ -p 8080 -a localhost -s"
   },
-  "dependencies": {
+  "peerDependencies": {
     "jquery": ">=1.8.0",
     "jquery-ui": ">=1.8.0"
   },
   "externals": {
-    "jquery" : "jQuery"
+    "jquery": "jQuery"
   },
   "devDependencies": {
     "cypress": "^4.8.0",
